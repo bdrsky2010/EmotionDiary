@@ -27,7 +27,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="Bkp-M0-Aby">
                                 <rect key="frame" x="54.666666666666657" y="256.66666666666669" width="284" height="339.00000000000006"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="tXA-Pa-VoI">
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="tXA-Pa-VoI">
                                         <rect key="frame" x="0.0" y="0.0" width="284" height="101"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="R2b-vV-sYk">
@@ -37,7 +37,6 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="80" id="Fu9-Ef-3Fm"/>
-                                                            <constraint firstAttribute="width" constant="80" id="q22-9F-Uhf"/>
                                                         </constraints>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                         <state key="normal" title="Button"/>
@@ -49,7 +48,6 @@
                                                         <rect key="frame" x="0.0" y="80" width="80" height="21"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="21" id="2co-xP-beG"/>
-                                                            <constraint firstAttribute="width" constant="80" id="BG5-s1-kj4"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
@@ -63,7 +61,6 @@
                                                     <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sU8-tt-Ex9">
                                                         <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="width" constant="80" id="3ux-AS-La6"/>
                                                             <constraint firstAttribute="height" constant="80" id="EEO-k5-mio"/>
                                                         </constraints>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -75,7 +72,6 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dqJ-jg-JiR">
                                                         <rect key="frame" x="0.0" y="80" width="80" height="21"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="width" constant="80" id="4jG-mM-usu"/>
                                                             <constraint firstAttribute="height" constant="21" id="wwo-qa-YPp"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -90,7 +86,6 @@
                                                     <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0sh-Ee-ygF">
                                                         <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="width" constant="80" id="744-Mc-R8X"/>
                                                             <constraint firstAttribute="height" constant="80" id="qcr-68-L7g"/>
                                                         </constraints>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -102,7 +97,6 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w7a-jb-cRa">
                                                         <rect key="frame" x="0.0" y="80" width="80" height="21"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="width" constant="80" id="EcG-KE-bLe"/>
                                                             <constraint firstAttribute="height" constant="21" id="GDq-QG-QEm"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -113,7 +107,7 @@
                                             </stackView>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="pGY-LF-ZeY">
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="pGY-LF-ZeY">
                                         <rect key="frame" x="0.0" y="119" width="284" height="101"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="nBe-2a-coB">
@@ -122,7 +116,6 @@
                                                     <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jt5-dd-HLw">
                                                         <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="width" constant="80" id="5ds-9V-d7F"/>
                                                             <constraint firstAttribute="height" constant="80" id="LkA-cx-key"/>
                                                         </constraints>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -134,7 +127,6 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EJO-b6-ejf">
                                                         <rect key="frame" x="0.0" y="80" width="80" height="21"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="width" constant="80" id="QEd-so-VGQ"/>
                                                             <constraint firstAttribute="height" constant="21" id="beo-WV-Ks3"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -150,7 +142,6 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="80" id="0pf-WA-FXg"/>
-                                                            <constraint firstAttribute="width" constant="80" id="eSU-Xs-XXU"/>
                                                         </constraints>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                         <state key="normal" title="Button"/>
@@ -162,7 +153,6 @@
                                                         <rect key="frame" x="0.0" y="80" width="80" height="21"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="21" id="g6R-eM-0r0"/>
-                                                            <constraint firstAttribute="width" constant="80" id="j89-ql-9CV"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
@@ -176,7 +166,6 @@
                                                     <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IJ8-Yb-vbG">
                                                         <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="width" constant="80" id="9L3-kG-deK"/>
                                                             <constraint firstAttribute="height" constant="80" id="bRt-By-QLV"/>
                                                         </constraints>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -188,7 +177,6 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fJ9-v4-g93">
                                                         <rect key="frame" x="0.0" y="80" width="80" height="21"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="width" constant="80" id="Cha-f4-HYf"/>
                                                             <constraint firstAttribute="height" constant="21" id="XEe-uz-mvP"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -199,7 +187,7 @@
                                             </stackView>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="0f8-IQ-tcZ">
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="0f8-IQ-tcZ">
                                         <rect key="frame" x="0.0" y="238" width="284" height="101"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="RQB-uS-4rk">
@@ -208,7 +196,6 @@
                                                     <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O2i-pm-0XM">
                                                         <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="width" constant="80" id="LJy-mT-daI"/>
                                                             <constraint firstAttribute="height" constant="80" id="Zqi-sm-Oxt"/>
                                                         </constraints>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -221,7 +208,6 @@
                                                         <rect key="frame" x="0.0" y="79.999999999999943" width="80" height="21"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="21" id="5Sb-nA-bDs"/>
-                                                            <constraint firstAttribute="width" constant="80" id="UOT-5v-svt"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
@@ -236,7 +222,6 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="80" id="dWi-sT-4sO"/>
-                                                            <constraint firstAttribute="width" constant="80" id="wLk-6h-5zM"/>
                                                         </constraints>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                         <state key="normal" title="Button"/>
@@ -247,7 +232,6 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="exy-zE-dEn">
                                                         <rect key="frame" x="0.0" y="79.999999999999943" width="80" height="21"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="width" constant="80" id="EBx-M6-lBx"/>
                                                             <constraint firstAttribute="height" constant="21" id="JNh-Bj-bnj"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -262,7 +246,6 @@
                                                     <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tHv-Dq-243">
                                                         <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="width" constant="80" id="FWK-po-1oq"/>
                                                             <constraint firstAttribute="height" constant="80" id="bOg-Jn-gFq"/>
                                                         </constraints>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -275,7 +258,6 @@
                                                         <rect key="frame" x="0.0" y="79.999999999999943" width="80" height="21"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="21" id="G7G-qY-KkQ"/>
-                                                            <constraint firstAttribute="width" constant="80" id="cte-nM-O6G"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
@@ -298,15 +280,40 @@
                                 </constraints>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                             </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="uvJ-Zp-td9">
+                                <rect key="frame" x="156.66666666666666" y="613.66666666666663" width="80" height="104.33333333333337"/>
+                                <subviews>
+                                    <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e8D-MN-1JJ">
+                                        <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="80" id="7rT-Nt-e9L"/>
+                                            <constraint firstAttribute="width" secondItem="e8D-MN-1JJ" secondAttribute="height" id="uF9-Bf-rgE"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="slime1"/>
+                                        <connections>
+                                            <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="630-GX-Dfj"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="리셋" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fFL-1y-VoX">
+                                        <rect key="frame" x="25" y="84" width="29.666666666666671" height="20.333333333333329"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.90196078430000004" green="0.90196078430000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="uvJ-Zp-td9" firstAttribute="top" secondItem="Bkp-M0-Aby" secondAttribute="bottom" constant="18" id="9Zj-qY-Gbg"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XQC-yY-cyU" secondAttribute="trailing" constant="16" id="AI8-Uh-hm1"/>
                             <constraint firstItem="HXs-nE-YFn" firstAttribute="leading" secondItem="XQC-yY-cyU" secondAttribute="leading" id="P5U-Co-cWE"/>
                             <constraint firstItem="XQC-yY-cyU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Tg0-IE-dyC"/>
                             <constraint firstItem="HXs-nE-YFn" firstAttribute="top" secondItem="XQC-yY-cyU" secondAttribute="top" id="ZR6-Fe-Y2Z"/>
                             <constraint firstItem="Bkp-M0-Aby" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="cgD-SY-mmY"/>
+                            <constraint firstItem="uvJ-Zp-td9" firstAttribute="centerX" secondItem="Bkp-M0-Aby" secondAttribute="centerX" id="doK-53-YAj"/>
                             <constraint firstItem="Bkp-M0-Aby" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fWe-kb-Fla"/>
                             <constraint firstItem="HXs-nE-YFn" firstAttribute="bottom" secondItem="XQC-yY-cyU" secondAttribute="bottom" id="iEO-8g-oPc"/>
                             <constraint firstItem="XQC-yY-cyU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="zdh-0a-MJH"/>
@@ -314,6 +321,8 @@
                     </view>
                     <connections>
                         <outlet property="menuButton" destination="HXs-nE-YFn" id="bK1-p7-5cB"/>
+                        <outlet property="resetButton" destination="e8D-MN-1JJ" id="hLM-mt-V9V"/>
+                        <outlet property="resetLabel" destination="fFL-1y-VoX" id="k0Z-II-pyp"/>
                         <outlet property="titleLabel" destination="XQC-yY-cyU" id="IxB-65-ohv"/>
                         <outletCollection property="emotionButtons" destination="MU6-Ew-srC" collectionClass="NSMutableArray" id="MIZ-Ks-Fk8"/>
                         <outletCollection property="emotionButtons" destination="sU8-tt-Ex9" collectionClass="NSMutableArray" id="MuY-xg-czt"/>
@@ -340,4 +349,7 @@
             <point key="canvasLocation" x="119.84732824427481" y="-2.1126760563380285"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="slime1" width="278" height="258"/>
+    </resources>
 </document>
