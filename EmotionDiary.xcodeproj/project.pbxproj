@@ -14,6 +14,8 @@
 		7B4DE0C42BF73BE20038FF2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B4DE0C32BF73BE20038FF2C /* Assets.xcassets */; };
 		7B4DE0C72BF73BE20038FF2C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7B4DE0C62BF73BE20038FF2C /* Base */; };
 		7B4DE0F32BFA3A110038FF2C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 7B4DE0F22BFA3A110038FF2C /* .gitignore */; };
+		7B5C12D12C08AE010096DE9E /* UserDefaultsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5C12D02C08AE010096DE9E /* UserDefaultsHelper.swift */; };
+		7B5C12D32C08AE850096DE9E /* Emotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5C12D22C08AE850096DE9E /* Emotion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		7B4DE0C62BF73BE20038FF2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B4DE0C82BF73BE20038FF2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B4DE0F22BFA3A110038FF2C /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		7B5C12D02C08AE010096DE9E /* UserDefaultsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsHelper.swift; sourceTree = "<group>"; };
+		7B5C12D22C08AE850096DE9E /* Emotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emotion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				7B4DE0C32BF73BE20038FF2C /* Assets.xcassets */,
 				7B4DE0C52BF73BE20038FF2C /* LaunchScreen.storyboard */,
 				7B4DE0C82BF73BE20038FF2C /* Info.plist */,
+				7B5C12D02C08AE010096DE9E /* UserDefaultsHelper.swift */,
+				7B5C12D22C08AE850096DE9E /* Emotion.swift */,
 			);
 			path = EmotionDiary;
 			sourceTree = "<group>";
@@ -143,7 +149,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B4DE0BF2BF73BE10038FF2C /* ViewController.swift in Sources */,
+				7B5C12D32C08AE850096DE9E /* Emotion.swift in Sources */,
 				7B4DE0BB2BF73BE10038FF2C /* AppDelegate.swift in Sources */,
+				7B5C12D12C08AE010096DE9E /* UserDefaultsHelper.swift in Sources */,
 				7B4DE0BD2BF73BE10038FF2C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
